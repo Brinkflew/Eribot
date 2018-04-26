@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+  - '8'
+sudo: required
+services:
+  - docker
+cache:
+  directories:
+    - node_modules
+before_script:
+  - npm install -g eslint jsdoc
+  - echo -e "Host github.com\n\tHostName github.com\n\tUser git\n\tIdentityFile ~/.ssh/id_rsa\n" >> ~/.ssh/config
+script:
+  - bash ./deploy/deploy.sh
+dist: trusty
+env:
+  global:
+    - COMMIT_AUTHOR_EMAIL: 'antoine.van-serveyt@hotmail.be'

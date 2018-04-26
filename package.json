@@ -1,0 +1,30 @@
+{
+  "name": "eribot",
+  "version": "0.0.1-dev",
+  "description": "Discord bot for Dofus based on Sharpen and Discord.js",
+  "main": "eribot.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "docs": "jsdoc -d docs/ -r src/",
+    "docs:view": "npm run docs && http-server docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brinkflew/eribot.git"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "sharpen",
+    "dofus"
+  ],
+  "types": "./typings/index.d.ts",
+  "author": "Brinkflew <antoine.van-serveyt@hotmail.be>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/brinkflew/eribot/issues"
+  },
+  "homepage": "https://github.com/brinkflew/eribot#readme"
+}

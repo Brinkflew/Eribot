@@ -1,0 +1,11 @@
+# Packages
+node_modules
+package-lock.json
+
+# Tests
+test/config.json
+test/config.js
+test/*.sqlite3
+
+# Docker
+docker-compose.yml
