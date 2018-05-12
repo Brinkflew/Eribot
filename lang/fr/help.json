@@ -1,0 +1,186 @@
+{
+	"ted": {
+		"description": "Un petit salut de la part de Ted, le chat de Brebs.",
+		"args": [],
+		"examples": [
+			{
+				"args": null,
+				"description": "Envoie un salut de la part de Ted, avec un message aléatoire"
+			}
+		]
+	},
+	"skip": {
+		"description": "Annule la lecture d'une chanson dans la playlist musicale.",
+		"args": [
+			{
+				"name": "offset",
+				"description": "Position de la musique à passer dans la liste",
+				"optional": true
+			}
+		],
+		"examples": [
+			{
+				"args": null,
+				"description": "Passe la première musique dans la playlist, équivaut à celle jouée actuellement"
+			},
+			{
+				"args": "3",
+				"description": "Annule la lecture de la musique en troisième position dans la playlist musicale"
+			}
+		]
+	},
+	"resume": {
+		"description": "Reprend la lecture de la playlist musicale en pause.",
+		"args": [],
+		"examples": [
+			{
+				"args": null,
+				"description": "Relance la musique actuellement en pause"
+			}
+		]
+	},
+	"queue": {
+		"description": "Affiche la liste de lecture musicale pour ce serveur Discord.",
+		"args": [],
+		"examples": [
+			{
+				"args": null,
+				"description": "Affiche la playlist musicale en cours et son statut"
+			}
+		]
+	},
+	"stream": {
+		"description": "Recherche une musique sur YouTube et l'ajoute à la liste de lecture. L'audio de la vidéo sera joué dans le channel audio \"musique\".",
+		"args": [
+			{
+				"name": "url|keywords",
+				"description": "Addresse de la vidéo YouTube à jouer ou mots-clés à utiliser pour une recherche Google de la vidéo",
+				"optional": false
+			}
+		],
+		"examples": [
+			{
+				"args": "https://www.youtube.com/watch?v=wbl04kfdhWI",
+				"description": "Joue la vidéo YouTube accessible à l'adresse mentionnée"
+			},
+			{
+				"args": "eriboux chanson COG",
+				"description": "Joue l'audio de la première vidéo retournée par une recherche Google avec les mot-clés indiqués"
+			}
+		]
+	},
+	"portal": {
+		"description": "Dispense les informations sur un portail, comme sa position et son nombre d'utlisations restantes.",
+		"args": [
+			{
+				"name": "dimension",
+				"description": "Dimension pour laquelle rechercher le portail (typiquement : eca, enu, xel ou sram)",
+				"optional": false
+			}
+		],
+		"examples": [
+			{
+				"args": "xel",
+				"description": "Affiche les informations du portail vers la dimension de Xélorium"
+			}
+		]
+	},
+	"ping": {
+		"description": "Répond \"Pong !\" et indique le temps de latence entre l'envoi et la réception de messages.",
+		"args": [],
+		"examples": [
+			{
+				"args": "",
+				"description": "Pong ! 1-0 pour Eribot !"
+			}
+		]
+	},
+	"pause": {
+		"description": "Met la playlist en cours de lecture en pause.",
+		"args": [],
+		"examples": [
+			{
+				"args": "",
+				"description": "Met la musique en pause"
+			}
+		]
+	},
+	"joke": {
+		"description": "Envoie une (mauvaise) blague dans le chat. Si une valeur invalide est spécifiée en argument, une nouvelle valeur sera choisie aléatoirement.",
+		"args": [
+			{
+				"name": "count",
+				"description": "Affiche le nombre de blagues disponnibles",
+				"optional": true
+			},
+			{
+				"name": "id",
+				"description": "Affiche la blague ayant pour ID la valeur spécifiée",
+				"optional": true
+			}
+		],
+		"examples": [
+			{
+				"args": null,
+				"description": "Raconte une blague choisie aléatoirement dans la liste"
+			},
+			{
+				"args": "4",
+				"description": "Raconte la blague numéro 4 (quatrième dans la liste)"
+			},
+			{
+				"args": "count",
+				"description": "Indique le nombre de blagues contenues dans la liste"
+			}
+		]
+	},
+	"help": {
+		"description": "Dispense de l'aide sur les différentes commandes utilisables. Une commande particulière peut être ciblée pour plus d'informations à son propos, ainsi que des exemples d'utilisation.",
+		"args": [
+			{
+				"name": "command",
+				"description": "Nom de la commande à rechercher",
+				"optional": true
+			}
+		],
+		"examples": [
+			{
+				"args": null,
+				"description": "Affiche toutes les commandes et leur utilité"
+			},
+			{
+				"args": "ping",
+				"description": "Affiche de l'aide sur la commande \"ping\", et montre des examples d'utilisation"
+			}
+		]
+	},
+	"alma": {
+		"description": "Dispense l'almanax du jour, ses bonus et son offrande.",
+		"args": [
+			{
+				"name": "day",
+				"description": "Jour du mois de l'almanax à afficher (1-31)",
+				"optional": true
+			},
+			{
+				"name": "month",
+				"description": "Mois de l'almanax à afficher (1-12)",
+				"optional": true
+			}
+		],
+		"examples": [
+			{
+				"args": null,
+				"description": "Affiche l'almanax d'aujourd'hui"
+			},
+			{
+				"args": "4",
+				"description": "Affiche l'almanax du 4 de ce mois"
+			},
+			{
+				"args": "17 9",
+				"description": "Affiche l'almanax du 17 septembre"
+			}
+		]
+	}
+}

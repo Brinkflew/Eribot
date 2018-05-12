@@ -1,11 +1,20 @@
-# Packages
-node_modules
-package-lock.json
+# Ignore self
+.gitignore
 
-# Tests
-test/config.json
-test/config.js
-test/*.sqlite3
+# Ignore Node.js Modules
+node_modules/*
 
-# Docker
-docker-compose.yml
+# Ignore configuration files
+config/*
+
+# Ignore SublimeText files
+Eribot.sublime-project
+Eribot.sublime-workspace
+
+# Ignore temp files
+temp
+resources/almanax
+resources/portals
+
+# Ignore log files
+logs/*

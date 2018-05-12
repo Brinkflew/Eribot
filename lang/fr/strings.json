@@ -1,0 +1,110 @@
+{
+	"months": [
+		"Janvier",
+		"Février",
+		"Mars",
+		"Avril",
+		"Mai",
+		"Juin",
+		"Juillet",
+		"Août",
+		"Septembre",
+		"Octobre",
+		"Novembre",
+		"Décembre"
+	],
+	"dick": [
+		"Bite, vous avez dit bite ?",
+		"Biiiiiiiiiiiteuh !",
+		"Hihi, il a dit bite :smirk:",
+		"Bite, n.f., « Bite » est une expression d'argot désignant vulgairement le pénis. La Grosse Bite à Dudule est une chanson paillarde.",
+		"Ceci n'est pas une bite."
+	],
+	"fun": [
+		"Haha, pas mal !",
+		"Geeeeenre XD",
+		"Excellent !",
+		"Hahaha :stuck_out_tongue_winking_eye:",
+		"Nice :joy:",
+		"Ahah :laughing:"
+	],
+	"spam": [
+		"T'en a pas marre de causer tout seul là ?",
+		"Ah si tu pouvais fermer ta gueuleuh, ça nous ferait des vacanceuuuuhs ! :notes:",
+		"\"Spam\" ça rime avec \"T'as pas d'âme\", marrant hein ?",
+		"Chut.",
+		"J'ai dit: ça nous intéresse pas !",
+		"Mais allez quoi, même Ted il fait pas autant de raffut quand il a faim...",
+		"Il s'est passé quoi dans ton enfance pour que tu deviennes comme ça, à pas savoir écrire tout en une fois ?",
+		"J'ai arrêté de lire au deuxième message.",
+		"On s'en bat les couilles tellement fort que les moines tibétains, du haut de leur montagne, ils entendent \"Clac ! Clac ! Clac ! Clac !\" et ils se disent \"Ah, ils s'en battent les couilles.\"",
+		"Si toi aussi tu t'en fous, tape dans tes mains :clap: :clap:",
+		"C'est dur la vie quand on n'a pas d'amis, je comprend ta souffrance.",
+		"Mais tu vas la fermer, oui ?!",
+		"Tu sais, c'est pas grave si tu parles seul, personne ne t'en veux.\nC'est juste un peu triste quoi...",
+		"Les bananes sont bleues, les kiwis sont roses, les... Oh pardon, tu disais ?",
+		"Regarde, écoute comme les fleurs sentent bon !",
+		"On s'en tamponne l'oreille avec une babouche.",
+		"Elle est nulle ton histoire.",
+		"Naon ! Incroyable ! J'en reviens pas ! Mais c'est un truc de diiiingue !",
+		"Comment tu fais pour parler autant sans jamais avoir l'air intéressant ?"
+	],
+	"bored": [
+		"Heho, y'a quelqu'un ?",
+		"Ptain, on s'emmerde ici...",
+		"Allô ?",
+		"J'me sens seul là...",
+		"Lalala schtroumpf lala, viens schtroumpfer en coeur ! :notes:",
+		"Y'a personne pour dire un truc constructif là ? Genre \"Maçon\" ?",
+		"On se fait quand même bien chier, hein ?",
+		"Hé ben... Bonjour l'ambiance !"
+	],
+	"fuck": [
+		"{username}, on avait dit pas les mamans !",
+		"En parlant de ta femme, {username}, elle va bien ?",
+		"On dit \"femme de peu de vertu\", fils d'ingrat !",
+		"Ha, tu as un nouveau job {username} ?"
+	],
+	"name": [
+		"Ce débile, là ?",
+		"Qu'est-ce que tu lui veux à ce vieux débris ?",
+		"C'est notre idole à tous !",
+		"Vas-y, pourquoi tu l'apelles ? Épouse-le tant que t'y es !",
+		"On t'appelle, andouille !",
+		"Ben vas-y, comme si il ne causait pas déjà assez comme ça..."
+	],
+	"small": [
+		"Petit ? Comme ta frite.",
+		"C'est toi qui est petit.",
+		"Petit petit petit petiiiiit !",
+		"Kirikou est petit, car il n'est pas grand.\nCa marche aussi pour le QI moyen de la guilde, remarquez..."
+	],
+	"ted": [
+		"Miaou ?",
+		"Miaou !",
+		"Miaou...",
+		"Bawiii !",
+		"Bawi Ted",
+		"Tedichon !",
+		"#OnSeRouleDansLHuileDeFriture",
+		"C'est le maître de Brebs, oui.",
+		"Graou",
+		"Meow",
+		"C'est enfin l'heure des croquettes ?"
+	],
+	"jokes": [
+		"Quelle est l'Enutrofette qui fait peur aux Srams ?\nMamie Traillette.",
+		"Pourquoi met-on une selle sur une dragodinde ?\nParce que si on la met en dessous, elle tombe.",
+		"De quel côté les chachas ont-ils le plus de poils ?\nA l'extérieur.",
+		"J'allais raconter une blague nulle mais nan, pas maintenant, j'ai la flemme.",
+		"Quelle est la dernière chose qui passe par la tête d'une moumouche quand elle se prend une vitre ?\nSon cul.",
+		"Qu'est-ce qui rentre par une oreille, ressort par l'autre mais reste dans la tête ?\nUne pioche.",
+		"Qu'est-ce qui est invisible et qui sent la cawotte ?\nUn pet de wabbit.",
+		"Qu'est-ce qui est vert et qui pousse au fond du jardin ?\nUn bwork qui fait caca.",
+		"Que fait un tofu de 40Kg ?\n**PIOU PIOU !**",
+		"C'est trois belges, deux bretons, un suisse et des français qui rentrent dans un bar, le serveur demande :\n- C'est quoi ça, c'est le début d'une blague nulle ?\n- Non monsieur, ça, c'est Eriboux !",
+		"C'est l'histoire d'un Xélor qui est tellement petit que sa tête elle pue des pieds.",
+		"C'est l'histoire d'un aveugle qui rentre dans un bar...\nPuis dans une table...\nPuis dans une chaise...",
+		"Deux brâkmariens discutent :\n- Donne-moi une couleur entre 0 et 10.\n- Juinssidor ?\n- T'es con, c'est pas sur Frigost !"
+	]
+}
